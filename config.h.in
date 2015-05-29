@@ -1,5 +1,8 @@
 /* config.h.in.  Generated from configure.ac by autoheader.  */
 
+/* Define to 1 if libudfread is to be used for disc image access */
+#undef ENABLE_UDF
+
 /* Define to 1 if using libbluray J2ME stack */
 #undef HAVE_BDJ_J2ME
 
@@ -12,6 +15,12 @@
 
 /* Define to 1 if you have the <errno.h> header file. */
 #undef HAVE_ERRNO_H
+
+/* Define to 1 if you have the <fcntl.h> header file. */
+#undef HAVE_FCNTL_H
+
+/* Define this if you have fontconfig library */
+#undef HAVE_FONTCONFIG
 
 /* Define this if you have FreeType2 library */
 #undef HAVE_FT2
@@ -141,5 +150,8 @@
 /* Define for large files, on AIX-style hosts. */
 #undef _LARGE_FILES
 
-/* Define to '0x0500' for Windows XP APIs. */
+/* Define to '0x0501' for IE 5.01. */
+#undef _WIN32_IE
+
+/* Define to '0x0502' for Windows XP SP2 APIs. */
 #undef _WIN32_WINNT
